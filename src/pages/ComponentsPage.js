@@ -1,13 +1,14 @@
 import React from "react";
+import { Head } from "@reactend/express";
 import styled from "styled-components";
-import { Helmet } from "react-helmet";
+
 import { BaseLayout } from "../components/layout/BaseLayout";
 
 export const ComponentsPage = () => (
   <BaseLayout>
-    <Helmet>
-      <title>React-end | Components</title>
-    </Helmet>
+    <Head>
+      <title>Reactend | Components</title>
+    </Head>
     <Wrapper>
       <code>Sorry, it is in process...</code>
     </Wrapper>

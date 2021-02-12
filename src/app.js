@@ -23,7 +23,7 @@ const ExpressApp = () => (
     <Logger mode="dev" disabled={isProd} />
     <Router path="/">
       <Get>
-        <Res.Header name="Cache-Control" value="public, max-age=31557600" />
+        <Res.Header name="Cache-Control" value="public, max-age=0" />
         <Res.Render component={HomePage} />
       </Get>
       <Get path="/components" render={ComponentsPage} />

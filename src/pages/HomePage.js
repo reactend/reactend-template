@@ -1,13 +1,13 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Head } from "@reactend/express";
 import styled from "styled-components";
 import { BaseLayout } from "../components/layout/BaseLayout";
 
 export const HomePage = () => (
   <BaseLayout>
-    <Helmet>
-      <title>React-end | React renderer to build Node.js server</title>
-    </Helmet>
+    <Head>
+      <title>Reactend | React renderer to build Node.js server</title>
+    </Head>
     <Hero>
       <div>
         <img src="/logo.svg" />

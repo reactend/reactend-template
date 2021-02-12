@@ -6,7 +6,7 @@ const PAGES = [
   { path: "/", label: "Home", title: "@reactend/express" },
   { path: "/components", label: "Components", title: "Components Page" },
   {
-    path: "https://github.com/gigantz/reactend-express",
+    path: "https://github.com/reactend/reactend-express",
     label: "Github",
     title: "Github",
   },
