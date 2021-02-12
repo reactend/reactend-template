@@ -3,10 +3,10 @@ import { ReqResContext } from "@reactend/express";
 import styled from "styled-components";
 
 const PAGES = [
-  { path: "/", label: "Home", title: "@orkhanjafarovr" },
+  { path: "/", label: "Home", title: "@reactend/express" },
   { path: "/components", label: "Components", title: "Components Page" },
   {
-    path: "https://github.com/gigantz/react-xpress",
+    path: "https://github.com/gigantz/reactend-express",
     label: "Github",
     title: "Github",
   },
