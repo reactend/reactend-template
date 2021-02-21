@@ -28,6 +28,10 @@ const ExpressApp = () => (
       </Get>
       <Get path="/components" render={ComponentsPage} />
       <Router path="/api">
+        <Get
+          path="/show-message/:message"
+          text="The message is $param.message"
+        />
         <Post path="/status" json={{ msg: "It is okay, bro" }} />
       </Router>
       <Updates />
